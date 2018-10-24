@@ -39,5 +39,6 @@
 1. **  撤销工作区的修改 **
 
   `git checkout -- file`  
-
 > 注意：这里必须有 ** -- ** 且前后有空格; `git checkout master` 切换分支，`git checkout -b xxx` 创建分支且切换分区。
+
+1. **  git push origin master **

@@ -42,3 +42,7 @@
 > 注意：这里必须有 ** -- ** 且前后有空格; `git checkout master` 切换分支，`git checkout -b xxx` 创建分支且切换分区。
 
 1. **  git push origin master **
+
+1. ** `git remote add origin git@github.com:<youruser>/projectname.git`
+
+1. ** `git remote rm orgin`

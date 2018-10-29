@@ -44,6 +44,18 @@ cat id_rsa.pub
 ```
 
 ### 4. 在host01上`ssh hadoop@host02`即可免密登陆host02  ###
+---
+
+>补充说明：公钥：加密，私钥：解密
+
+** 大概流程过程 （详细网上找 SSH建立连接过程 ）**
+1. SSH client生成密钥，将公钥复制到SSH Server上
+2. SSH client第一次请求SSH Server,SSH Server会将自己的公钥发送给SSH client
+3. SSH client收到SSH Server的公钥保存在.ssh/known_hosts文件中
+4. SSH client 请求内容通过SSH Server的公钥加密后发送SSH Server
+5. SSH Server 使用自己的私钥解密接收到SSH client的请求内容
+6. SSH Server将响应内容使用SSH client的公钥加密后发送到SSH client
+7. SSH client收到SSH Server的响应内容通过自己的私钥解密
 
 
 ---

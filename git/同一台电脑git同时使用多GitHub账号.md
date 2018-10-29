@@ -58,5 +58,4 @@ IdentityFile ~/.ssh/id_rsa_two
 git clone git@one.github.com/one.name/your.project
 
 git clone git@one.github.com/two.name/your.project
-
 ```

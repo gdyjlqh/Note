@@ -249,7 +249,7 @@ git diff
 
 git commit
      提交已经被add进来的改动.
-     git commit -m “the commit message"
+     git commit -m "the commit message"
      git commit -a 会先把所有已经track的文件的改动add进来,然后提交(有点像svn的一次提交,不用先暂存). 对于没有track的文件,还是需要git add一下.
      git commit --amend 增补提交. 会使用与当前提交节点相同的父节点进行一次新的提交,旧的提交将会被取消.
 

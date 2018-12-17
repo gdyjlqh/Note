@@ -157,7 +157,7 @@ git remote show origin # 查看远程服务器仓库状态
 
 git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
 
-git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
+git remote set-url origin git@github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
 ```
 #### 创建远程仓库
 ```shell

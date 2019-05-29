@@ -11,7 +11,7 @@
 
 1. ** 安装编译源码所需依赖，命令为： yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc perl-ExtUtils-MakeMaker 耐心等待安装，出现提示输入y即可 **
 
-1. ** 进入解压后的文件夹`·`git-2.29.1`,执行编译，命令: make prefix=/usr/local/git all **
+1. ** 进入解压后的文件夹`git-2.29.1`,执行编译，命令: make prefix=/usr/local/git all **
 
 1. ** 安装命令: `make prefix=/usr/local/git install` **
 
